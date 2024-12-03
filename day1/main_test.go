@@ -29,5 +29,5 @@ func TestFs2Test(t *testing.T) {
 func TestFs2Input(t *testing.T) {
 	f, err := os.Open("input.txt")
 	require.NoError(t, err)
-	assert.Equal(t, 54985, fs2(f))
+	assert.Equal(t, 23741109, fs2(f))
 }
